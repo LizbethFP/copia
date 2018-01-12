@@ -1,5 +1,6 @@
 /* CLASES REUTILIZABLES */
 * {
+  /* font-family: 'Lato', sans-serif; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,7 +25,7 @@ section, footer {
 
 section {
   font-size: 18px;
-}
+ }
 
 button {
   background: #6C567B;
@@ -51,7 +52,12 @@ figcaption, p {
 
 figcaption {
   font-size: 24px;
-}
+ }
+
+ .profile-info {
+   font-size: 16px;
+   line-height: 20px;
+ }
 
 .container-flex-column {
   display: flex;
@@ -114,6 +120,10 @@ header li{
   border-radius: 4px;
 }
 
+.pic-test:hover {
+  box-shadow: 1px 1px 8px #555;
+}
+
 .time-indicator, .heart, .colored-heart {
   margin-right: 1em;
 }
@@ -144,12 +154,17 @@ header li{
 }
 
 footer {
-  color: #6C567B !important;
+  color: #6C567B;
+  font-family: 'Bellefair', serif;
   font-size: 1.2em;
   font-weight: 800;
   height: 5vh;
   padding: 1.5em;
 }
+
+.footer-text {
+  color: #6C567B !important;
+ }
 
 #contact-modal-content {
   padding: 1em !important;
